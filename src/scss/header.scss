@@ -1,0 +1,75 @@
+//====================================================================================================
+.header {
+	width: 50%;
+	margin-left: auto;
+	// background-color: #F2FFE1;
+	&__wrap {
+		display: flex;
+		align-items: center;
+		padding: 81px 0 88px 100px;
+	}
+	&__user {
+		margin: 0 auto;
+	font-size: 30px;
+	}
+}
+
+.logo {
+	width: 300px;
+	img{
+		max-width: 100%;
+	}
+}
+
+//====================================================================================================
+
+//Burger
+/*
+.icon-menu {
+	display: none;
+	@media (max-width: $mobile) {
+		display: block;
+		position: relative;
+		width: rem(30);
+		height: rem(18);
+		cursor: pointer;
+		z-index: 5;
+		span,
+		&::before,
+		&::after {
+			content: "";
+			transition: all 0.3s ease 0s;
+			right: 0;
+			position: absolute;
+			width: 100%;
+			height: rem(2);
+			background-color: #000;
+		}
+		&::before {
+			top: 0;
+		}
+		&::after {
+			bottom: 0;
+		}
+		span {
+			top: calc(50% - rem(1));
+		}
+		.menu-open & {
+			span {
+				width: 0;
+			}
+			&::before,
+			&::after {
+			}
+			&::before {
+				top: calc(50% - rem(1));
+				transform: rotate(-45deg);
+			}
+			&::after {
+				bottom: calc(50% - rem(1));
+				transform: rotate(45deg);
+			}
+		}
+	}
+}
+*/
