@@ -99,5 +99,18 @@
         }
     }
 }
-
+.copy-link {
+    color: #a762ff;
+    font-weight: bold;
+    font-size: rem(28);
+    display: inline-flex;
+    align-items: center;
+    border-radius:5px ;
+    border: 2px solid #a762ff;
+    padding: rem(20) rem(60);
+    margin-bottom: rem(100);
+    &::before{
+        padding-right: rem(10);
+    }
+}
 //====================================================================================================
