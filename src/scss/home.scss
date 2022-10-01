@@ -1,13 +1,14 @@
 //====================================================================================================
 .title {
-    color: #484848;
-    font-size: 28px;
+    font-size: rem(28);
     font-weight: 400;
     &__sub-title {
+        padding-bottom: rem(23);
     }
     &__title {
-        font-size: 40px;
+        font-size: rem(40);
         font-weight: bold;
+        padding-bottom: rem(30);
     }
     &__year {
     }
@@ -18,32 +19,84 @@
 .album {
     width: 50%;
     &__img {
-        width: 380px;
-        padding: 70px 0 90px 0;
+        display: block;
+        width: rem(380);
+        padding: rem(70) 0 rem(90) 0;
         img {
             max-width: 100%;
         }
     }
 
     &__list {
+        font-size: rem(24);
     }
     &__list-item {
+        padding-bottom: rem(25);
+        small {
+            font-size: rem(18);
+            display: block;
+        }
     }
 }
 .lable-music {
     width: 50%;
-  
+    padding-left: rem(95);
     img {
         max-width: 100%;
     }
     &__title {
-         padding: 70px 0 95px 95px; 
+        font-size: rem(24);
+        padding: rem(70) 0 rem(95) 0;
     }
     &__list {
     }
     &__list-item {
+        padding-left: rem(110);
+        height: rem(80);
+        font-size: rem(28);
+        display: flex;
+        align-items: center;
+        margin-bottom: rem(40);
+        &:nth-child(1) {
+            background: url(../img/Apple\ Music.jpg);
+            background-repeat: no-repeat;
+            background-size: rem(80);
+        }
+        &:nth-child(2) {
+            background: url(../img/Deezer.jpg);
+            background-repeat: no-repeat;
+            background-size: rem(80);
+        }
+        &:nth-child(3) {
+            background: url(../img/Spotyfy.jpg);
+            background-repeat: no-repeat;
+            background-size: rem(80);
+        }
+        &:nth-child(4) {
+            background: url(../img/Yandex\ music.jpg);
+            background-repeat: no-repeat;
+            background-size: rem(80);
+        }
+        &:nth-child(5) {
+            background: url(../img/YouTube.jpg);
+            background-repeat: no-repeat;
+            background-size: rem(80);
+        }
+        &:nth-child(6) {
+            background: url(../img/VK\ Music.jpg);
+            background-repeat: no-repeat;
+            background-size: rem(80);
+        }
     }
     &__btn {
+        font-size: rem(20);
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        &::before {
+            padding-right: rem(20);
+            padding-top: rem(4);
+        }
     }
 }
 

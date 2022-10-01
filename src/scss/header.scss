@@ -5,18 +5,17 @@
 	// background-color: #F2FFE1;
 	&__wrap {
 		display: flex;
-		align-items: center;
-		padding: 81px 0 88px 100px;
+		padding: rem(81) 0 rem(88) rem(100);
 	}
 	&__user {
-		margin: 0 auto;
-	font-size: 30px;
+		margin-left: auto;
+		font-size: rem(30);
 	}
 }
 
 .logo {
-	width: 300px;
-	img{
+	width: rem(300);
+	img {
 		max-width: 100%;
 	}
 }
