@@ -35,6 +35,11 @@
         small {
             font-size: rem(18);
             display: block;
+                color: #9F9F9F;
+        }
+        span{
+            color: #D9D9D9;
+            padding-left: rem(10);
         }
     }
 }
@@ -51,12 +56,13 @@
     &__list {
     }
     &__list-item {
-        padding-left: rem(110);
-        height: rem(80);
-        font-size: rem(28);
         display: flex;
         align-items: center;
         margin-bottom: rem(40);
+        a {
+            font-size: rem(28);
+            padding: rem(26) 0 rem(26) rem(110);
+        }
         &:nth-child(1) {
             background: url(../img/Apple\ Music.jpg);
             background-repeat: no-repeat;
@@ -105,11 +111,11 @@
     font-size: rem(28);
     display: inline-flex;
     align-items: center;
-    border-radius:5px ;
+    border-radius: 5px;
     border: 2px solid #a762ff;
     padding: rem(20) rem(60);
     margin-bottom: rem(100);
-    &::before{
+    &::before {
         padding-right: rem(10);
     }
 }
