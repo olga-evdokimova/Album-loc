@@ -1,4 +1,5 @@
 //====================================================================================================
+
 .title {
     font-size: $text-big;
     font-weight: 400;
@@ -43,6 +44,7 @@
     }
 }
 .lable-music {
+    position: relative;
     width: 50%;
     padding-left: rem(95);
     img {
@@ -60,37 +62,11 @@
         margin-bottom: rem(40);
         background-repeat: no-repeat;
         background-size: rem(80);
+      
         a {
             font-size: $text-big;
             padding: rem(26) 0 rem(26) rem(110);
         }
-        // &:nth-child(1) {
-        // }
-        // &:nth-child(2) {
-        //     background-image: url(../img/Deezer.jpg);
-        //     background-repeat: no-repeat;
-        //     background-size: rem(80);
-        // }
-        // &:nth-child(3) {
-        //     background-image: url(../img/Spotyfy.jpg);
-        //     background-repeat: no-repeat;
-        //     background-size: rem(80);
-        // }
-        // &:nth-child(4) {
-        //     background-image: url(../img/YandexMusic.jpg);
-        //     background-repeat: no-repeat;
-        //     background-size: rem(80);
-        // }
-        // &:nth-child(5) {
-        //     background-image: url(../img/YouTube.jpg);
-        //     background-repeat: no-repeat;
-        //     background-size: rem(80);
-        // }
-        // &:nth-child(6) {
-        //     background-image: url(../img/VKMusic.jpg);
-        //     background-repeat: no-repeat;
-        //     background-size: rem(80);
-        // }
     }
     &__btn {
         font-size: rem(20);
