@@ -65,34 +65,35 @@
             padding: rem(26) 0 rem(26) rem(110);
         }
         &:nth-child(1) {
-            background: url(../img/AppleMusic.jpg);
+            background-image: url(../img/AppleMusic.jpg);
             background-repeat: no-repeat;
             background-size: rem(80);
         }
         &:nth-child(2) {
-            background: url(../img/Deezer.jpg);
+            background-image: url(../img/Deezer.jpg);
             background-repeat: no-repeat;
             background-size: rem(80);
         }
         &:nth-child(3) {
-            background: url(../img/Spotyfy.jpg);
+            background-image: url(../img/Spotyfy.jpg);
             background-repeat: no-repeat;
             background-size: rem(80);
         }
         &:nth-child(4) {
-            background: url(../img/YandexMusic.jpg);
+            background-image: url(../img/YandexMusic.jpg);
             background-repeat: no-repeat;
             background-size: rem(80);
         }
         &:nth-child(5) {
-            background: url(../img/YouTube.jpg);
+            background-image: url(../img/YouTube.jpg);
             background-repeat: no-repeat;
             background-size: rem(80);
         }
         &:nth-child(6) {
-            background: url(../img/VKMusic.jpg);
+            background-image: url(../img/VKMusic.jpg);
             background-repeat: no-repeat;
             background-size: rem(80);
+            bg
         }
     }
     &__btn {
