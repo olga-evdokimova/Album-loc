@@ -469,7 +469,7 @@ h6 {
 }
 
 .no-webp .lable-music__list-item:nth-child(1){
-  background: url(../img/AppleMusic.jpg); }
+  background-image: url(../img/AppleMusic.jpg); }
 
 .lable-music__list-item:nth-child(1) {
   background-repeat: no-repeat;
@@ -477,7 +477,7 @@ h6 {
 }
 
 .no-webp .lable-music__list-item:nth-child(2){
-  background: url(../img/Deezer.jpg); }
+  background-image: url(../img/Deezer.jpg); }
 
 .lable-music__list-item:nth-child(2) {
   background-repeat: no-repeat;
@@ -485,7 +485,7 @@ h6 {
 }
 
 .no-webp .lable-music__list-item:nth-child(3){
-  background: url(../img/Spotyfy.jpg); }
+  background-image: url(../img/Spotyfy.jpg); }
 
 .lable-music__list-item:nth-child(3) {
   background-repeat: no-repeat;
@@ -493,7 +493,7 @@ h6 {
 }
 
 .no-webp .lable-music__list-item:nth-child(4){
-  background: url(../img/YandexMusic.jpg); }
+  background-image: url(../img/YandexMusic.jpg); }
 
 .lable-music__list-item:nth-child(4) {
   background-repeat: no-repeat;
@@ -501,7 +501,7 @@ h6 {
 }
 
 .no-webp .lable-music__list-item:nth-child(5){
-  background: url(../img/YouTube.jpg); }
+  background-image: url(../img/YouTube.jpg); }
 
 .lable-music__list-item:nth-child(5) {
   background-repeat: no-repeat;
@@ -509,7 +509,7 @@ h6 {
 }
 
 .no-webp .lable-music__list-item:nth-child(6){
-  background: url(../img/VKMusic.jpg); }
+  background-image: url(../img/VKMusic.jpg); }
 
 .lable-music__list-item:nth-child(6) {
   background-repeat: no-repeat;
@@ -552,14 +552,14 @@ h6 {
   padding-right: 0.625rem;
 }
 
-.webp .lable-music__list-item:nth-child(1){ background: url(../img/AppleMusic.webp); }
+.webp .lable-music__list-item:nth-child(1){ background-image: url(../img/AppleMusic.webp); }
 
-.webp .lable-music__list-item:nth-child(2){ background: url(../img/Deezer.webp); }
+.webp .lable-music__list-item:nth-child(2){ background-image: url(../img/Deezer.webp); }
 
-.webp .lable-music__list-item:nth-child(3){ background: url(../img/Spotyfy.webp); }
+.webp .lable-music__list-item:nth-child(3){ background-image: url(../img/Spotyfy.webp); }
 
-.webp .lable-music__list-item:nth-child(4){ background: url(../img/YandexMusic.webp); }
+.webp .lable-music__list-item:nth-child(4){ background-image: url(../img/YandexMusic.webp); }
 
-.webp .lable-music__list-item:nth-child(5){ background: url(../img/YouTube.webp); }
+.webp .lable-music__list-item:nth-child(5){ background-image: url(../img/YouTube.webp); }
 
-.webp .lable-music__list-item:nth-child(6){ background: url(../img/VKMusic.webp); }
+.webp .lable-music__list-item:nth-child(6){ background-image: url(../img/VKMusic.webp); }
