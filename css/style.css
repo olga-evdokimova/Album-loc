@@ -459,6 +459,8 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 2.5rem;
+  background-repeat: no-repeat;
+  background-size: 5rem;
 }
 
 .lable-music__list-item a {
