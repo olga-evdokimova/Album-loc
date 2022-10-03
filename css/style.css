@@ -63,6 +63,10 @@
 ._icon-bg:before {
   content: "\e908";
   color: #fff;
+  font-size: 51.75rem;
+  position: absolute;
+  right: 0;
+  top: 50.75rem;
 }
 
 ._icon-Yandex-music-01:before {
@@ -210,6 +214,12 @@ h6 {
   font-size: inherit;
 }
 
+body {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ffffff), color-stop(50%, #F2FFE1));
+  background: -o-linear-gradient(left, #ffffff 50%, #F2FFE1 50%);
+  background: linear-gradient(to right, #ffffff 50%, #F2FFE1 50%);
+}
+
 .lock body {
   overflow: hidden;
   -ms-touch-action: none;
@@ -246,11 +256,11 @@ h6 {
 */
 
 [class*=__container] {
-  max-width: 73.75rem;
+  max-width: 65.625rem;
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   margin: 0 auto;
-  padding: 0 0.9375rem;
+  padding: 0 5rem;
 }
 
 [class*=-ibg] {
@@ -438,6 +448,7 @@ h6 {
 }
 
 .lable-music {
+  position: relative;
   width: 50%;
   padding-left: 5.9375rem;
 }
@@ -466,54 +477,6 @@ h6 {
 .lable-music__list-item a {
   font-size: 1.75rem;
   padding: 1.625rem 0 1.625rem 6.875rem;
-}
-
-.no-webp .lable-music__list-item:nth-child(1){
-  background-image: url(../img/AppleMusic.jpg); }
-
-.lable-music__list-item:nth-child(1) {
-  background-repeat: no-repeat;
-  background-size: 5rem;
-}
-
-.no-webp .lable-music__list-item:nth-child(2){
-  background-image: url(../img/Deezer.jpg); }
-
-.lable-music__list-item:nth-child(2) {
-  background-repeat: no-repeat;
-  background-size: 5rem;
-}
-
-.no-webp .lable-music__list-item:nth-child(3){
-  background-image: url(../img/Spotyfy.jpg); }
-
-.lable-music__list-item:nth-child(3) {
-  background-repeat: no-repeat;
-  background-size: 5rem;
-}
-
-.no-webp .lable-music__list-item:nth-child(4){
-  background-image: url(../img/YandexMusic.jpg); }
-
-.lable-music__list-item:nth-child(4) {
-  background-repeat: no-repeat;
-  background-size: 5rem;
-}
-
-.no-webp .lable-music__list-item:nth-child(5){
-  background-image: url(../img/YouTube.jpg); }
-
-.lable-music__list-item:nth-child(5) {
-  background-repeat: no-repeat;
-  background-size: 5rem;
-}
-
-.no-webp .lable-music__list-item:nth-child(6){
-  background-image: url(../img/VKMusic.jpg); }
-
-.lable-music__list-item:nth-child(6) {
-  background-repeat: no-repeat;
-  background-size: 5rem;
 }
 
 .lable-music__btn {
@@ -551,15 +514,3 @@ h6 {
 .copy-link::before {
   padding-right: 0.625rem;
 }
-
-.webp .lable-music__list-item:nth-child(1){ background-image: url(../img/AppleMusic.webp); }
-
-.webp .lable-music__list-item:nth-child(2){ background-image: url(../img/Deezer.webp); }
-
-.webp .lable-music__list-item:nth-child(3){ background-image: url(../img/Spotyfy.webp); }
-
-.webp .lable-music__list-item:nth-child(4){ background-image: url(../img/YandexMusic.webp); }
-
-.webp .lable-music__list-item:nth-child(5){ background-image: url(../img/YouTube.webp); }
-
-.webp .lable-music__list-item:nth-child(6){ background-image: url(../img/VKMusic.webp); }
