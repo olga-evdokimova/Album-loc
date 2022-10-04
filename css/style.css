@@ -406,6 +406,7 @@ body {
   right: 51%;
   top: -37px;
   max-width: 100%;
+  z-index: -1;
 }
 
 .title {
@@ -434,7 +435,9 @@ body {
 .album__img {
   display: block;
   width: 23.75rem;
-  padding: 4.375rem 0 5.625rem 0;
+  height: 23.75rem;
+  margin: 4.375rem 0 5.625rem 0;
+  background-color: #ffffff;
 }
 
 .album__img img {
