@@ -2,13 +2,14 @@
 .bg {
     position: relative;
     width: 100%;
-  
+
     img {
         position: absolute;
         width: rem(445);
         right: 51%;
         top: -37px;
         max-width: 100%;
+        z-index: -1;
     }
 }
 .title {
@@ -32,7 +33,9 @@
     &__img {
         display: block;
         width: rem(380);
-        padding: rem(70) 0 rem(90) 0;
+        height: rem(380);
+        margin: rem(70) 0 rem(90) 0;
+        background-color: $white-100;
         img {
             max-width: 100%;
         }
@@ -73,7 +76,7 @@
         margin-bottom: rem(40);
         background-repeat: no-repeat;
         background-size: rem(80);
-      
+
         a {
             font-size: $text-big;
             padding: rem(26) 0 rem(26) rem(110);
