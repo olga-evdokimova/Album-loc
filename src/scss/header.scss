@@ -7,7 +7,8 @@
 		padding: rem(81) 0 rem(88) rem(100);
 	}
 	&__user {
-		margin-left: auto;
+		position: absolute;
+		right: rem(87);
 		font-size: rem(30);
 	}
 }
