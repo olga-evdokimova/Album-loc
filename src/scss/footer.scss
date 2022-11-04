@@ -1,7 +1,7 @@
 //====================================================================================================
 .footer {
 	width: 50%;
-	padding:rem(50) rem(30) rem(140) 0;
+	padding: rem(50) rem(30) rem(140) 0;
 	&__wrap {
 	}
 	&__social {
@@ -10,7 +10,7 @@
 	&__tag {
 		display: block;
 		padding-bottom: rem(38);
-		font-size:$text-middle;
+		font-size: $text-middle;
 	}
 	&__by {
 		display: block;
@@ -28,6 +28,13 @@
 	&__item {
 		font-size: rem(20);
 		padding-right: rem(10);
+		transition: transform 0.3s ease 0s;
+		@media (any-hover: hover) and (any-pointer: fine) {
+			&:hover {
+				transform: scale(1.1);
+				transition: transform 0.3s ease 0s;
+			}
+		}
 	}
 }
 
