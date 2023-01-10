@@ -1,42 +1,92 @@
 //====================================================================================================
-.bg {
+.page {
+    display: grid;
+    grid-template-areas:
+        "h f"
+        "s f"
+        "s f";
+    grid-template-columns: 400px 1fr;
+}
+.bg-nota {
+    width: 486px;
+    height: 432px;
+    position: absolute;
+    right: 326px;
+    top: 484px;
+    z-index: 1;
+}
+.bg-decor {
     position: relative;
     width: 100%;
 
     img {
         position: absolute;
-        width: rem(445);
-        right: 51%;
-        top: -37px;
+        width: rem(335);
+        right: 54%;
+        top: -32px;
         max-width: 100%;
         z-index: -1;
     }
 }
-.title {
-    font-size: $text-big;
-    font-weight: 400;
-    width: 50%;
+.bg-color {
+    width: 600px;
+    height: 100%;
+    background-color: $secondary-60;
+    position: fixed;
+    left: 45%;
+}
+.link {
+    display: flex;
+    flex-direction: column;
 
-    &__sub-title {
-        padding: 0 rem(30) rem(23) 0;
+    &__albums {
+        width: 40%;
+        font-size: rem(16);
+        padding-bottom: 10px;
+        transition: all 0.3s ease 0s;
+        @media (any-hover: hover) and (any-pointer: fine) {
+            &:hover {
+                transition: all 0.3s ease 0s;
+                color: #a762ff;
+            }
+        }
     }
+    &__compilations {
+        width: 40%;
+        font-size: rem(16);
+        padding-bottom: 83px;
+        line-height: 1.4;
+        transition: all 0.3s ease 0s;
+        @media (any-hover: hover) and (any-pointer: fine) {
+            &:hover {
+                transition: all 0.3s ease 0s;
+                color: #a762ff;
+            }
+        }
+    }
+}
+.title {
+    width: 60%;
+    grid-area: h;
+
     &__title {
-        @extend %text-h1;
-        padding: 0 rem(30) rem(30) 0;
+        font-size: rem(36);
+        font-weight: 600;
+        padding: 0 0 rem(24) 0;
     }
     &__year {
+        font-size: rem(20);
     }
 }
-.section-columns {
-    display: flex;
-}
+
 .album {
-    width: 50%;
+    // width: 400px;
+    grid-area: s;
     &__img {
         display: block;
-        width: rem(380);
-        height: rem(380);
-        margin: rem(70) 0 rem(90) 0;
+        width: rem(280);
+        height: rem(280);
+        margin: rem(35) 0 rem(55) 0;
         background-color: $white-100;
         img {
             max-width: 100%;
@@ -44,43 +94,37 @@
     }
 
     &__list {
-        font-size: $text-middle;
+        font-size: 16px;
+        list-style-position: inside;
     }
     &__list-item {
-        padding: 0 rem(30) rem(25) 0;
-        small {
-            font-size: rem(18);
-            display: block;
-            color: $text-60;
-        }
-        span {
-            color: $text-60;
-            padding-left: rem(10);
-        }
+        padding: 0 rem(10) rem(22) 0;
     }
 }
 .lable-music {
     position: relative;
-    width: 50%;
-    padding-left: rem(95);
+    // width: 600px;
+    grid-area: f;
+    padding-top: 130px;
     img {
         max-width: 100%;
     }
     &__title {
-        font-size: $text-middle;
-        padding: rem(70) rem(30) rem(95) 0;
+        font-size: rem(16);
+        padding: 0 rem(10) rem(76) rem(33);
     }
     &__list {
+        padding-left: rem(57);
     }
     &__list-item {
         display: flex;
         align-items: center;
-        margin-bottom: rem(40);
+        margin-bottom: rem(46);
         background-repeat: no-repeat;
-        background-size: rem(80);
+        background-size: rem(74);
 
         a {
-            font-size: $text-big;
+            font-size: rem(20);
             padding: rem(26) 0 rem(26) rem(110);
         }
     }
@@ -106,8 +150,7 @@
     padding: rem(20) rem(60);
     margin: rem(90) 0 rem(100);
     span {
-        padding-left: rem(10); 
-       
+        padding-left: rem(10);
     }
 }
 //====================================================================================================

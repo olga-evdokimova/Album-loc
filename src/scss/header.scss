@@ -1,21 +1,37 @@
 //====================================================================================================
 .header {
-	width: 50%;
-	margin-left: auto;
+	&__link {
+		width: 40%;
+		font-size: rem(32);
+		position: relative;
+		&::before {
+			content: "";
+			width: 22px;
+			height: 22px;
+			background-image: url(../img/icon-arrow.png);
+			background-repeat: no-repeat;
+			position: absolute;
+			top: 5px;
+			left: -59px;
+		}
+	}
 	&__wrap {
 		display: flex;
-		padding: rem(81) 0 rem(88) rem(100);
+		align-items: center;
+		padding: rem(63) 0 rem(33) 0;
+			position: relative;
 	}
 	&__user {
 		position: absolute;
-		right: rem(87);
+		right:-48px;
 		font-size: rem(30);
+		padding: rem(8) 0 0 0;
 	}
 }
 
 .logo {
-	width: 300px;
-	margin-right: rem(50);
+	width: 220px;
+	padding: rem(8) 0 0 rem(33);
 	img {
 		max-width: 100%;
 	}
